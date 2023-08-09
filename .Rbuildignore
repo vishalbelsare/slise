@@ -1,4 +1,16 @@
 ^.*\.Rproj$
 ^\.Rproj\.user$
-^\.vscode
+^.*\.Rcheck$
+^\.vscode$
 ^experiments$
+^tests$
+^docs$
+^.*.zip
+^.*.tar.gz
+^\.lintr$
+^CITATIONS.bib$
+^\.github$
+^_pkgdown\.yml$
+^pkgdown$
+^doc$
+^pdfs$

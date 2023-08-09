@@ -1,51 +1,8 @@
 # Experiments
 
-This directory contains the experiments used in the paper.
+The experiments for the papers have been moved into their own branches (so that the experiments are connected to the correct version of the library).
+You can find the corresponding experiments here:
 
-
-## Files
-
- - Helper functions
-    - utils.R
-    - lime.R
-    - collect_results.R
- - Data downloading and preparation
-    - data/retrieve_*.R
- - Experiments (some are designed to run on a cluster)
-    - exp_*.R
- - Plotting results for the paper
-    - plot_*.R
-
-
-## Dependencies
-
-For running all the experiments and gathering all the data the following
-packages are needed, note that not all packages are needed individual
-experiments:
-
- - MASS
- - MTE
- - robustHD
- - sparseLTSEigen
- - robustbase
- - glmnet
- - R.utils
- - ggplot2
- - dplyr
- - scales
- - abind
- - magick
- - lime
- - xtable
- - plyr
- - keras
- - R.matlab
- - tm
- - qdap
- - Matrix
- - SnowballC
- - e1071
- - randomForest
- - elmNNRcpp
- - latex2exp
- - pense
+- [*Sparse Robust Regression for Explaining Classifiers* (2019)](https://github.com/edahelsinki/slise/tree/conference_experiments/experiments).
+- [*Robust regression via error tolerance* (2022)](https://github.com/edahelsinki/slise/tree/robust_regression_experiments/experiments).
+- [*Explaining any black box model using real data* (2023)](https://github.com/edahelsinki/slise/tree/explanation_experiments/experiments).
